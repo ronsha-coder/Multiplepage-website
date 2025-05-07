@@ -27,16 +27,16 @@ script.js # JavaScript file
 
 ## Live Page
 
-Check out the live version of the website at https://ronsha-coder.github.io/multiplepage-website/
+1.Check out the live version of the website at https://ronsha-coder.github.io/multiplepage-website/
 
 
-1. Clone the repo:
+2.Clone the repo:
    git clone https://github.com/ronsha-coder/multiplepage-website.git
 
    
-2. Open `index.html` in your browser.
+3. Open `index.html` in your browser.
 
 ## Author
 
-Created by Ronsha ([@ronsha-coder](https://github.com/ronsha-coder)) as part of a Week 8 Web Development assignment.
+Created by Sharon Nduku ([@ronsha-coder](https://github.com/ronsha-coder)) as part of a Week 8 Web Development assignment.
 
