@@ -1,0 +1,171 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Background images per page */
+  /* Background images per page with fade effect */
+body.home {
+    background: url('images/pexels-photo-460672 3.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8; /* Slight fade effect */
+  }
+  /* Base main container */
+main {
+    padding: 2rem;
+    margin: auto;
+    background: rgba(61, 55, 55, 0.85);
+    border-radius: 10px;
+    color: #000;
+    z-index: 2;
+    position: relative;
+  }
+  
+  /* Wider container for contact page */
+  body.contact main {
+    max-width: 1000px; /* Increased width */
+    background: rgba(44, 41, 41, 0.9); /* Slightly lighter container */
+    border: 2px solid #ffa500; /* Optional: add a border for style */
+  }
+  
+  /* Optional: change container background for other pages too */
+  body.about main {
+    background: rgba(0, 0, 0, 0.6); /* Darker background for contrast */
+    color: #fff; /* Light text */
+  }
+  
+  
+  body.about {
+    background: url('images/pexels-photo-597909 4.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+body.contact {
+    background: url('images/pexels-photo-11742806 2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+  
+  
+  /* Navigation */
+  nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffa500;
+  }
+  
+  /* Main content */
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    color: #000;
+    position: relative;
+    z-index: 2;
+  }
+  
+  header, footer {
+    z-index: 2;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1; /* Ensures the main content takes up remaining space */
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  main img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Form styling */
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
