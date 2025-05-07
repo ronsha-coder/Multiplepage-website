@@ -27,7 +27,7 @@ script.js # JavaScript file
 
 ## Live Page
 
-Check out the live version of the website at [https://username.github.io/repository-name](https://username.github.io/repository-name).
+Check out the live version of the website at https://ronsha-coder.github.io/multiplepage-website/
 
 
 1. Clone the repo:
