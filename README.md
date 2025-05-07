@@ -25,6 +25,11 @@ script.js # JavaScript file
 
 ## How to Run
 
+## Live Page
+
+Check out the live version of the website at [https://username.github.io/repository-name](https://username.github.io/repository-name).
+
+
 1. Clone the repo:
    git clone https://github.com/ronsha-coder/multiplepage-website.git
 
